@@ -6,6 +6,7 @@ def dessiner_arbre(longueur : float , angle_min : float , angle_max : float , no
    
     if longueur <= longueur_min:
         return
+    #on rajoute qqchose
     
     sous_arbres_tot = random.randint(nombre_sous_arbres_min, nombre_sous_arbres_max)
     angle_tot = angle_max - angle_min
